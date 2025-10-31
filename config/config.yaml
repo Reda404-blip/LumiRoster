@@ -1,0 +1,19 @@
+﻿face_recognition:
+  shape_predictor_path: "assets/models/shape_predictor_68_face_landmarks.dat"
+  face_encoder_path: "assets/models/face_recognition_model_v1.dat"
+  ear_threshold: 0.25
+  blink_frames: 2
+  face_match_threshold: 0.6
+
+database:
+  path: "data/attendance.db"
+
+telegram:
+  bot_token: "YOUR_BOT_TOKEN"
+  user_id: "YOUR_USER_ID"
+
+security:
+  secret_key: "your-secret-key"
+  algorithm: "HS256"
+  access_token_expire_minutes: 30
+
